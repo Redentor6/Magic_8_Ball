@@ -19,7 +19,21 @@ def index():
                "Concentrate and ask again",
                "My sources say no",
                "Definitely need more time to think about this one",
-               "As I see it, yes"  ]
+               "As I see it, yes",
+               "Don't count on it",
+               "My reply is no",
+               "My sources say no",
+               "Very doubtful",
+               "Cannot predict now",
+               "Better not tell you now",
+               "Ask again later",
+               "Reply hazy try again",
+               "Yes",
+               "Outlook good",
+               "Most likely",
+               "You may rely on it",
+               "Yes definitely",
+               "Without a doubt"  ]
     randomNumber = randint(0,len(answers)-1) 
     answer = answers[randomNumber] 
  
