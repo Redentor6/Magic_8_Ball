@@ -1,1 +1,1 @@
-Procfile
+pip web: python app.py
