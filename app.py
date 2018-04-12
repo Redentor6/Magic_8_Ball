@@ -3,13 +3,13 @@ from random import randint
  
 app = Flask(__name__)
  
-@app.route("/")
-def index():
-    return "Flask App!"
+#@app.route("/")
+#def index():
+    #return "Flask App!"
  
 #@app.route("/hello/<string:name>")
-@app.route("/hello/<string:name>/")
-def hello(name):
+@app.route("/")
+def index():
 #    return name
     answers = [ "Outlook not so good",
                "It is decidedly so",
